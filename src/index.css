@@ -107,7 +107,19 @@ p {
   /* letter-spacing: 2px; */
   color: var(--clr-white);
 }
-@media screen and (min-width: 800px) {
+
+@media (max-width: 630px) {
+  body {
+    font-size: 0.5rem;
+  }
+
+  h3 {
+    font-size: 1.1rem;
+    letter-spacing: 0.4rem;
+}
+}
+
+@media screen and (min-width: 860px) {
   h1 {
     font-size: 2em;
   }
@@ -130,23 +142,6 @@ p {
   h4 {
     line-height: 1;
   }
-}
-
-.title {
-  text-align: center;
-  margin: 10rem 0 0 0;
-}
-
-.title .underline {
-  height: 0.25rem;
-  margin-left: auto;
-  margin-right: auto;
-  width: 7rem;
-  background: var(--clr-primary-5);
-}
-
-.fa {
-  font-weight: 900;
 }
 
 /* .navbtn {

@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from "react";
-import { GrSolaris } from "react-icons/gr";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
 import { FaBars } from "react-icons/fa";
 import { links } from "../utils/constants";
+import Logo from "./Logo";
 
 const Navbar = () => {
   const [menu, setMenu] = useState(true);
@@ -13,25 +13,24 @@ const Navbar = () => {
   return (
     <NavContainer>
       <div className="nav-container">
-        <Link to="/">
-        <div className="logo">
-          <h3>TrailerMax</h3>
-          <GrSolaris className="title-icon" />
-        </div>
+        <div className="nav-header">
+          <Link to="/">
+            <Logo />
           </Link>
-        <button type="button" className="nav-toggle">
-          <FaBars />
-        </button>
-        <ul className="nav-links">
-          {links.map((link) => {
-            const { id, text, url } = link;
-            return (
-              <li key={id}>
-                <Link to={url}>{text}</Link>
-              </li>
-            );
-          })}
-        </ul>
+          <button type="button" className="nav-toggle">
+            <FaBars />
+          </button>
+          <ul className="nav-links">
+            {links.map((link) => {
+              const { id, text, url } = link;
+              return (
+                <li key={id}>
+                  <Link to={url}>{text}</Link>
+                </li>
+              );
+            })}
+          </ul>
+        </div>
       </div>
     </NavContainer>
   );
@@ -42,44 +41,25 @@ const NavContainer = styled.nav`
   display: flex;
   align-items: center;
   justify-content: center;
-  position: fixed;
-  z-index: 1;
-  background: black;
-  width: 100%;
+  background: var(--clr-black);
 
   .nav-container {
     width: 90vw;
     margin: 0 auto;
+    max-width: var(--max-width);
+  }
+
+  .nav-header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-  }
-
-  .logo {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    position: relative;
-    margin-top: 0.4rem;
-  }
-
-  .logo h3 {
-    text-transform: uppercase;
-    letter-spacing: 0.5rem;
-  }
-
-  .title-icon {
-    position: absolute;
-    top: -3%;
-    right: 9%;
-    font-size: 2.1rem;
-    color: var(--clr-primary-7);
   }
 
   .nav-toggle {
     background: transparent;
     border: transparent;
-    color: var(--clr-black);
+    margin-top: 0.15rem;
+    color: var(--clr-primary-5);
     cursor: pointer;
     svg {
       font-size: 1.4rem;
@@ -90,28 +70,13 @@ const NavContainer = styled.nav`
   }
 
   .nav-links {
-    /* display: none; */
+    display: none;
   }
 
-  @media (min-width: 800px) {
-    .logo {
-      position: relative;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      margin-top: 0.5rem;
-      color: var(--clr-primary-5);
-    }
+  @media (max-width: 680px) {
+  }
 
-    .title-icon {
-      position: absolute;
-      top: -17%;
-      right: 8%;
-      font-size: 3rem;
-      color: var(--clr-primary-5);
-      border: none;
-    }
-
+  @media (min-width: 860px) {
     .nav-toggle {
       display: none;
     }
@@ -124,21 +89,18 @@ const NavContainer = styled.nav`
         margin: 0 2.5rem;
       }
       a {
-        color: var(--clr-primary-7);
+        color: var(--clr-primary-5);
         font-size: 1.2rem;
         letter-spacing: 0.1rem;
         padding: 0.5rem;
+        font-weight: 700;
+        margin-top: 0.15rem;
         text-transform: uppercase;
         /* color: var(--clr-black); */
         &:hover {
-          border-bottom: 2px solid var(--clr-primary-7);
+          border-bottom: 2px solid var(--clr-primary-5);
         }
       }
-    }
-  }
-  @media (max-width: 800px) {
-    .logo {
-      color: var(--clr-primary-5);
     }
   }
 `;
