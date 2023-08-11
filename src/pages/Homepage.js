@@ -223,6 +223,11 @@ const HomeContainer = styled.nav`
     font-size: 18px;
   }
 
+  .movie-info h1 {
+    color: var(--clr-primary-5);
+    font-size: 2.5rem;
+  }
+
   .mini-bits p {
     font-size: 13px;
   }
@@ -265,8 +270,8 @@ const HomeContainer = styled.nav`
     }
 
     .movie-container {
-    padding: 5rem 1.5rem;
-  }
+      padding: 5rem 1.5rem;
+    }
   }
 
   @media (min-width: 860px) {
