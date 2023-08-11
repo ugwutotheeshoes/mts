@@ -225,7 +225,7 @@ const HomeContainer = styled.nav`
 
   .movie-info h1 {
     color: var(--clr-primary-5);
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
 
   .mini-bits p {
