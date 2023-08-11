@@ -8,9 +8,9 @@ const Footer = () => {
       <h4>&copy;{new Date().getFullYear()} TrailerMax</h4>
       <div className="socials">
         <div className="social-icon">
-          <FaFacebook class="fa" />
-          <FaInstagram class="fa" />
-          <FaTwitter class="fa" />
+          <FaFacebook className="fa" />
+          <FaInstagram className="fa" />
+          <FaTwitter className="fa" />
         </div>
         <h5>Privacy & Cookies | Terms | Accessibility</h5>
       </div>

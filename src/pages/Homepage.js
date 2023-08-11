@@ -14,7 +14,7 @@ const Homepage = () => {
               <div className="search-icon">
                 <FaSearch className="fa"></FaSearch>
               </div>
-              <input type="text" class="search-input" />
+              <input type="text" className="search-input" />
               <button className="btn btn-submit">
                 <FaArrowRight className="fa" />
               </button>
