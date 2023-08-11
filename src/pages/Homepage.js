@@ -224,7 +224,7 @@ const HomeContainer = styled.nav`
   }
 
   .movie-info h1 {
-    color: var(--clr-primary-5);
+    color: var(--clr-primary-7);
     font-size: 2rem;
   }
 
