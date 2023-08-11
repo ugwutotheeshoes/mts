@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
 import { FaBars } from "react-icons/fa";
@@ -6,10 +6,10 @@ import { links } from "../utils/constants";
 import Logo from "./Logo";
 
 const Navbar = () => {
-  const [menu, setMenu] = useState(true);
-  const showMiniLinks = () => {
-    setMenu(!menu);
-  };
+  // const [menu, setMenu] = useState(true);
+  // const showMiniLinks = () => {
+  //   setMenu(!menu);
+  // };
   return (
     <NavContainer>
       <div className="nav-container">

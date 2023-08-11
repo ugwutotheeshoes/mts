@@ -1,6 +1,6 @@
 import React from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import { Navbar, Footer, Sidebar } from "./components";
+import { BrowserRouter as Routes, Route } from "react-router-dom";
+import { Navbar, Footer } from "./components";
 import { Genre, Trending, Homepage, Account } from "./pages";
 import {
   Action,

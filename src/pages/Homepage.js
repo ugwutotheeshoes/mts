@@ -36,7 +36,6 @@ const Homepage = () => {
             ratings,
             front,
             border,
-            video,
             poster,
             details,
             director,
@@ -50,7 +49,7 @@ const Homepage = () => {
               {front ? (
                 <div
                   className={
-                    border == "right"
+                    border === "right"
                       ? "movie-container right"
                       : "movie-container left"
                   }

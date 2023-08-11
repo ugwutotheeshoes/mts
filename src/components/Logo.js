@@ -1,9 +1,9 @@
 import React from "react";
 import styled from "styled-components";
 import { GrSolaris } from "react-icons/gr";
-import { Link } from "react-router-dom";
-import { links } from "../utils/constants";
-import { VscStarFull } from "react-icons/vsc";
+// import { Link } from "react-router-dom";
+// import { links } from "../utils/constants";
+// import { VscStarFull } from "react-icons/vsc";
 
 const Logo = () => {
   return (
