@@ -111,7 +111,7 @@ const HomeContainer = styled.nav`
     clear: both;
     width: 100%;
     display: inline-block;
-    background: var(--clr-grey-7);
+    background: var(--clr-primary-7);
   }
 
   .search h3 {
@@ -152,7 +152,7 @@ const HomeContainer = styled.nav`
     border-radius: 45px;
     padding-right: 85px;
     background: var(--clr-white);
-    color: var(--clr-grey-7);
+    color: var(--clr-primary-7);
     border: none;
     font-size: 1.8em;
     font-weight: 300;
@@ -207,16 +207,16 @@ const HomeContainer = styled.nav`
   }
 
   .right {
-    border-top: 3px solid var(--clr-grey-7);
-    border-bottom: 3px solid var(--clr-grey-7);
-    border-right: 6px solid var(--clr-grey-7);
+    border-top: 3px solid var(--clr-primary-7);
+    border-bottom: 3px solid var(--clr-primary-7);
+    border-right: 6px solid var(--clr-primary-7);
   }
 
   .left {
     text-align: right;
-    border-top: 3px solid var(--clr-grey-7);
-    border-bottom: 3px solid var(--clr-grey-7);
-    border-left: 6px solid var(--clr-grey-7);
+    border-top: 3px solid var(--clr-primary-7);
+    border-bottom: 3px solid var(--clr-primary-7);
+    border-left: 6px solid var(--clr-primary-7);
   }
 
   .movie-info p {
