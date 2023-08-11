@@ -1,6 +1,6 @@
 import React from 'react'
-import { genres } from '../components/Data'
-import { Image, CloudinaryContext} from 'cloudinary-react';
+// import { genres } from '../components/Data'
+// import { Image, CloudinaryContext} from 'cloudinary-react';
 
 const Genre = () => {
     return (

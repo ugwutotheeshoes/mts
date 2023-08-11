@@ -3,8 +3,8 @@ import {
   VscHome,
   VscAccount,
   VscLibrary,
-  VscChevronDown,
-  VscChevronUp,
+  // VscChevronDown,
+  // VscChevronUp,
 } from "react-icons/vsc";
 export const links = [
   {
