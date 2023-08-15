@@ -59,13 +59,13 @@ const NavContainer = styled.nav`
     background: transparent;
     border: transparent;
     margin-top: 0.15rem;
-    color: var(--clr-primary-5);
+    color: var(--clr-white);
     cursor: pointer;
     svg {
       font-size: 1.4rem;
     }
     &:hover {
-      color: var(--clr-primary-7);
+      color: var(--clr-grey-9);
     }
   }
 
@@ -89,16 +89,16 @@ const NavContainer = styled.nav`
         margin: 0 2.5rem;
       }
       a {
-        color: var(--clr-primary-5);
-        font-size: 1.2rem;
-        letter-spacing: 0.1rem;
+        color: var(--clr-white);
         padding: 0.5rem;
-        font-weight: 700;
         margin-top: 0.15rem;
         text-transform: uppercase;
         /* color: var(--clr-black); */
+        font-size: 1rem;
+        letter-spacing: var(--spacing);
         &:hover {
-          border-bottom: 2px solid var(--clr-primary-5);
+          transition: var(--transition);
+          border-bottom: 2px solid var(--clr-white);
         }
       }
     }

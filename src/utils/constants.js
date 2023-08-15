@@ -70,6 +70,72 @@ export const icons = [
   },
 ];
 
+export const genre = [
+  {
+    id: 1,
+    image: "https://res.cloudinary.com/ugwutotheeshoes/image/upload/c_fill,h_350,w_210/v1622468574/Trailer/Action/Keanu_Reeves_Neon_John_Wick_Chapter_3_Parabellum_4K_Ultra_HD_Mobile_Wallpaper_gvqk44.jpg",
+    text: "action",
+    url: "/action",
+    border: "purple",
+  },
+  {
+    id: 2,
+    image: "https://res.cloudinary.com/ugwutotheeshoes/image/upload/v1622469323/Trailer/Adventure/Jurassic_Park_1993_Phone_Wallpaper___Moviemania_ncsmes.jpg",
+    text: "adventure",
+    url: "/adventure",
+    border: "darkgreen",
+  },
+  {
+    id: 3,
+    image: "https://res.cloudinary.com/ugwutotheeshoes/image/upload/v1622468902/Trailer/Animation/Hotel_Transylvania_3__Summer_Vacation_vampire_Scuba_diving_animated_move_720x1280_wallpaper_e0nwfg.jpg",
+    text: "animation",
+    url: "/animation",
+    border: "blue",
+  },
+  {
+    id: 4,
+    image: "https://res.cloudinary.com/ugwutotheeshoes/image/upload/c_fill,h_350,w_220/v1692066048/Trailer/Comedy/Macaulay_Culkin_channels_Home_Alone_at_wrestling_ring_yjfrxr.jpg",
+    text: "comedy",
+    url: "/comedy",
+    border: "red",
+  },
+  {
+    id: 5,
+    image: "https://res.cloudinary.com/ugwutotheeshoes/image/upload/c_fill,h_350,w_220/v1622470076/Trailer/Crime/apostrophe9__Photo_skdydm.jpg",
+    text: "crime",
+    url: "/crime",
+    border: "white",
+  },
+  {
+    id: 6,
+    image: "https://res.cloudinary.com/ugwutotheeshoes/image/upload/c_fill,h_350,w_210/v1692062303/Trailer/Family/Ariel_a3s7e9.jpg",
+    text: "family",
+    url: "/family",
+    border: "brown",
+  },
+  {
+    id: 7,
+    image: "https://res.cloudinary.com/ugwutotheeshoes/image/upload/c_fill,h_350,w_210/v1692064428/Trailer/Horror/30996100-e275-441e-ad2a-36b5c69f3175_hpyu7q.jpg",
+    text: "horror",
+    url: "/horror",
+    border: "grey",
+  },
+  {
+    id: 8,
+    image: "https://res.cloudinary.com/ugwutotheeshoes/image/upload/c_fill,h_350,w_210/v1692065508/Trailer/Sci-fi/bumblebee.jpg",
+    text: "sci-fi",
+    url: "/scifi",
+    border: "yellow",
+  },
+  {
+    id: 9,
+    image: "https://res.cloudinary.com/ugwutotheeshoes/image/upload/c_fill,h_350,w_210/v1692064966/Trailer/Series/Milk_Heavy_Sugar_aso0ik.jpg",
+    text: "series",
+    url: "/series",
+    border: "green",
+  },
+]
+
 export const movies = [
   {
     id: 1,

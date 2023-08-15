@@ -24,7 +24,7 @@ const Wrapper = styled.div`
   justify-content: space-between;
   align-items: center;
   padding: 0.5rem 1rem;
-  background: var(--clr-primary-7);
+  background: var(--clr-white);
   color: var(--clr-grey-2);
   /* text-align: center; */
 

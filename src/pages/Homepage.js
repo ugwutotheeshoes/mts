@@ -95,7 +95,7 @@ const Homepage = () => {
   );
 };
 
-const HomeContainer = styled.nav`
+const HomeContainer = styled.div`
   .main-container {
     position: absolute;
     text-transform: uppercase;
@@ -111,7 +111,7 @@ const HomeContainer = styled.nav`
     clear: both;
     width: 100%;
     display: inline-block;
-    background: var(--clr-primary-7);
+    background: var(--clr-grey-7);
   }
 
   .search h3 {
@@ -152,7 +152,7 @@ const HomeContainer = styled.nav`
     border-radius: 45px;
     padding-right: 85px;
     background: var(--clr-white);
-    color: var(--clr-primary-7);
+    color: var(--clr-grey-7);
     border: none;
     font-size: 1.8em;
     font-weight: 300;
@@ -207,16 +207,16 @@ const HomeContainer = styled.nav`
   }
 
   .right {
-    border-top: 3px solid var(--clr-primary-7);
-    border-bottom: 3px solid var(--clr-primary-7);
-    border-right: 6px solid var(--clr-primary-7);
+    border-top: 3px solid var(--clr-white);
+    border-bottom: 3px solid var(--clr-white);
+    border-right: 6px solid var(--clr-white);
   }
 
   .left {
     text-align: right;
-    border-top: 3px solid var(--clr-primary-7);
-    border-bottom: 3px solid var(--clr-primary-7);
-    border-left: 6px solid var(--clr-primary-7);
+    border-top: 3px solid var(--clr-white);
+    border-bottom: 3px solid var(--clr-white);
+    border-left: 6px solid var(--clr-white);
   }
 
   .movie-info p {
@@ -224,7 +224,7 @@ const HomeContainer = styled.nav`
   }
 
   .movie-info h1 {
-    color: var(--clr-primary-7);
+    color: var(--clr-primary-5);
     font-size: 1.7rem;
   }
 

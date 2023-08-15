@@ -24,7 +24,7 @@ const Wrapper = styled.div`
     align-items: center;
     justify-content: space-between;
     /* margin-top: 0.5rem; */
-    color: var(--clr-primary-5);
+    color: var(--clr-white);
   }
 
   .logo h3 {
@@ -72,7 +72,6 @@ const Wrapper = styled.div`
       align-items: center;
       justify-content: space-between;
       margin-top: 0.5rem;
-      color: var(--clr-primary-5);
     }
 
     .logo-icon {
