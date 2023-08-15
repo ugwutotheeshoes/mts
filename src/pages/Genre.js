@@ -34,8 +34,7 @@ const Container = styled.div`
   ul {
     display: grid;
     grid-template-columns: auto auto auto;
-    grid-row-gap: 70px;
-    grid-column-gap: 90px;
+    gap: 40px 30px;
     color: #fff;
     justify-items: center;
     align-items: center;
@@ -165,11 +164,11 @@ const Container = styled.div`
     ul {
       display: grid;
       grid-template-columns: 2fr 2fr;
-      gap: 40px 30px;
+      gap: 40px 40px;
     }
 
     img {
-      width: 140px;
+      width: 145px;
       height: 250px;
     }
 
@@ -184,6 +183,15 @@ const Container = styled.div`
   }
 
   @media (min-width: 860px) {
+    ul {
+      display: grid;
+      grid-template-columns: auto auto auto;
+      gap: 70px 90px;
+    }
+
+    h2 {
+      font-size: 22px;
+    }
   }
 `;
 
