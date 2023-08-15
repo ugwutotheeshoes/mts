@@ -30,7 +30,6 @@ const Container = styled.div`
   display: flex;
   justify-content: center;
   margin: 10rem auto;
-  
 
   ul {
     display: grid;
@@ -160,6 +159,31 @@ const Container = styled.div`
       margin-top: 0.2rem;
       color: rgb(160 255 8);
     }
+  }
+
+  @media (max-width: 680px) {
+    ul {
+      display: grid;
+      grid-template-columns: 2fr 2fr;
+      gap: 40px 30px;
+    }
+
+    img {
+      width: 140px;
+      height: 250px;
+    }
+
+    img:hover {
+      width: 160px;
+      height: 280px;
+    }
+
+    h2 {
+      font-size: 20px;
+    }
+  }
+
+  @media (min-width: 860px) {
   }
 `;
 
