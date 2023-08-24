@@ -163,22 +163,22 @@ const Container = styled.div`
   @media (max-width: 680px) {
     ul {
       display: grid;
-      grid-template-columns: 2fr 2fr;
-      gap: 40px 40px;
+      grid-template-columns: auto auto auto;
+      gap: 30px 30px;
     }
 
     img {
-      width: 145px;
-      height: 250px;
+      width: 100px;
+      height: 160px;
     }
 
     img:hover {
-      width: 160px;
-      height: 280px;
+      width: 120px;
+      height: 180px;
     }
 
     h2 {
-      font-size: 20px;
+      font-size: 15px;
     }
   }
 
