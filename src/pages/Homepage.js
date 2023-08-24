@@ -34,7 +34,6 @@ const Homepage = () => {
             genre,
             ratings,
             front,
-            border,
             poster,
             details,
             director,
