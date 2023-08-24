@@ -48,7 +48,7 @@ const Homepage = () => {
               {front ? (
                 <div
                   className={
-                    border === "right"
+                    id % 2 === 0 
                       ? "movie-container right"
                       : "movie-container left"
                   }

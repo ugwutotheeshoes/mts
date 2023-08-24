@@ -168,7 +168,6 @@ export const movies = [
     id: 1,
     name: "John Wick: Chapter 4",
     front: true,
-    border: "right",
     category: "action",
     genre: "Action, Crime, Thriller",
     ratings: 8.5,
@@ -244,7 +243,6 @@ export const movies = [
     id: 5,
     name: "Guardians of the Galaxy Vol. 3",
     front: true,
-    border: "left",
     category: "adventure",
     genre: "Adventure, Action, Comedy",
     ratings: "none",
@@ -303,7 +301,6 @@ export const movies = [
     id: 8,
     name: "Spider-Man: Across the Spider-Verse",
     front: true,
-    border: "right",
     category: "animation",
     genre: "Animation, Action, Adventure, Comedy",
     ratings: 8,
@@ -359,7 +356,6 @@ export const movies = [
   {
     id: 11,
     name: "Elemental",
-    border: "left",
     category: "animation",
     genre: "Animation, Adventure, Comedy",
     ratings: 7,
@@ -398,7 +394,6 @@ export const movies = [
   {
     id: 13,
     name: "The Last Voyage of the Demeter",
-    border: "right",
     category: "horror",
     genre: "Horror",
     ratings: 6.5,
@@ -477,7 +472,6 @@ export const movies = [
   {
     id: 17,
     name: "Saw X",
-    border: "left",
     category: "horror",
     genre: "Horror, Thriller, Mystery",
     ratings: "none",
