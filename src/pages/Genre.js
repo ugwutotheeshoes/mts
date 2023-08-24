@@ -165,7 +165,7 @@ const Container = styled.div`
     ul {
       display: grid;
       grid-template-columns: auto auto auto;
-      gap: 30px 30px;
+      gap: 40px 40px;
     }
 
     img {
