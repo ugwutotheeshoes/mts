@@ -1,30 +1,11 @@
-import { FaArrowRight, FaSearch } from "react-icons/fa";
+import React from "react";
 import { movies } from "../utils/constants";
 import { Link } from "react-router-dom";
 
-const Homepage = () => {
+const Shows = () => {
   return (
-    <div className="main-container">
-      <div className="search">
-        <h3>Find Movies, TV shows and more</h3>
-        <div className="search-home">
-          <div className="search-content">
-            <form action="">
-              <div className="search-icon">
-                <FaSearch className="fa"></FaSearch>
-              </div>
-              <input type="text" className="search-input" />
-              <button className="btn btn-submit">
-                <FaArrowRight className="fa" />
-              </button>
-            </form>
-          </div>
-        </div>
-      </div>
-      <div className="title">
-        <h2>Trending</h2>
-        <div className="underline"></div>
-      </div>
+    <div>
+      {" "}
       <ul className="pop">
         {movies.map((movies) => {
           const {
@@ -33,8 +14,7 @@ const Homepage = () => {
             img,
             genre,
             ratings,
-            front,
-            border,
+            category,
             poster,
             details,
             director,
@@ -45,13 +25,10 @@ const Homepage = () => {
           } = movies;
           return (
             <li key={id}>
-              {front ? (
+              {category === "series" ? (
                 <div
-                  className={
-                    border === "right"
-                      ? "movie-container right"
-                      : "movie-container left"
-                  }
+                  className="movie-container left"
+                  
                   style={{
                     backgroundImage: `url(${poster})`,
                   }}
@@ -59,7 +36,6 @@ const Homepage = () => {
                   {/* <div class="fade-big"></div> */}
                   {/* <img className="poster" src={poster} alt="movie poster" /> */}
                   {/* <p>ratings: {ratings}</p> */}
-
                   {id % 2 === 0 ? (
                     <div className="movie-info">
                       <img className="cover" src={img} alt="movie cover" />
@@ -116,7 +92,7 @@ const Homepage = () => {
                           <Link to={url}></Link>
                         </div>
                       </div>
-                      <img className="cover" src={img} alt="movie cover" />
+                        <img className="cover" src={img} alt="movie cover" />
                     </div>
                   )}
                 </div>
@@ -131,4 +107,4 @@ const Homepage = () => {
   );
 };
 
-export default Homepage;
+export default Shows;

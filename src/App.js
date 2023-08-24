@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router,  Routes, Route } from "react-router-dom";
 import { Navbar, Footer } from "./components";
-import { Genre, Trending, Homepage, Account } from "./pages";
+import { Genre, Shows, Homepage, Account } from "./pages";
 import {
   Action,
   Adventure,
@@ -22,7 +22,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Homepage />} />
         <Route path="/account" element={<Account />} />
-        <Route path="/trending" element={<Trending />} />
+        <Route path="/shows" element={<Shows />} />
         <Route path="/genre" element={<Genre />}>
           <Route path="/genre:id" element={<Action />} />
           <Route path="/genre:id" element={<Adventure />} />

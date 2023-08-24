@@ -56,6 +56,7 @@ const Wrapper = styled.div`
   }
 
   @media (max-width: 680px) {
+    height: 3.5rem;
     padding: 0.5rem 1rem;
     h4 {
       text-transform: uppercase;
