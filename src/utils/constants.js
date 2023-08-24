@@ -228,24 +228,6 @@ export const movies = [
   },
   {
     id: 5,
-    name: "Dungeons & Dragons: Honor Among Thieves",
-    category: "adventure",
-    genre: "Adventure, Action, Fantasy",
-    ratings: 7.3,
-    video: "https://www.youtube.com/watch?v=IiMinixSXII",
-    img: "https://res.cloudinary.com/ugwutotheeshoes/image/upload/v1692189741/Trailer/Homepage/Dungeons_Dragons__Honor_Among_Thieves_2023_vv83yb.jpg",
-    poster: "https://res.cloudinary.com/ugwutotheeshoes/image/upload/co_rgb:000000/b_rgb:000000,co_rgb:000000,o_80/v1692189744/Trailer/Homepage/Dungeons_Dragons__Rege_Jean-Page_Hired_For_Purpose_Of_Out-Hotting_Chris_Pine_-_Looper_lkldnc.jpg",
-    details:
-      "A charming thief and a band of unlikely adventurers embark on an epic quest to retrieve a long lost relic, but their charming adventure goes dangerously awry when they run afoul of the wrong people.",
-    director: "John Francis Daley, Jonathan Goldstein",
-    writers:
-      "Jonathan Goldstein, John Francis Daley, Michael Gilio, Chris McKay",
-    casts:
-      "Chris Pine, Michelle Rodriguez, Regé-Jean Page, Justice Smith, Sophia Lillis, Hugh Grant",
-    release: "April 7, 2023",
-  },
-  {
-    id: 6,
     name: "Guardians of the Galaxy Vol. 3",
     front: true,
     border: "left",
@@ -262,6 +244,24 @@ export const movies = [
     casts:
       "Chris Pratt, Zoe Saldaña, Dave Bautista, Karen Gillan, Pom Klementieff, Vin Diesel, Bradley Cooper, Sean Gunn, Chukwudi Iwuji, Will Poulter, Elizabeth Debicki, Maria Bakalova, Sylvester Stallone",
     release: "May 5, 2023",   
+  },
+  {
+    id: 6,
+    name: "Dungeons & Dragons: Honor Among Thieves",
+    category: "adventure",
+    genre: "Adventure, Action, Fantasy",
+    ratings: 7.3,
+    video: "https://www.youtube.com/watch?v=IiMinixSXII",
+    img: "https://res.cloudinary.com/ugwutotheeshoes/image/upload/v1692189741/Trailer/Homepage/Dungeons_Dragons__Honor_Among_Thieves_2023_vv83yb.jpg",
+    poster: "https://res.cloudinary.com/ugwutotheeshoes/image/upload/co_rgb:000000/b_rgb:000000,co_rgb:000000,o_80/v1692189744/Trailer/Homepage/Dungeons_Dragons__Rege_Jean-Page_Hired_For_Purpose_Of_Out-Hotting_Chris_Pine_-_Looper_lkldnc.jpg",
+    details:
+      "A charming thief and a band of unlikely adventurers embark on an epic quest to retrieve a long lost relic, but their charming adventure goes dangerously awry when they run afoul of the wrong people.",
+    director: "John Francis Daley, Jonathan Goldstein",
+    writers:
+      "Jonathan Goldstein, John Francis Daley, Michael Gilio, Chris McKay",
+    casts:
+      "Chris Pine, Michelle Rodriguez, Regé-Jean Page, Justice Smith, Sophia Lillis, Hugh Grant",
+    release: "April 7, 2023",
   },
   {
     id: 7,
@@ -282,23 +282,6 @@ export const movies = [
   },
   {
     id: 8,
-    name: "Peter Pan & Wendy",
-    category: "adventure",
-    genre: "Adventure, Action, Fantasy",
-    ratings: 4.4,
-    video: "https://www.youtube.com/watch?v=p-5sVX7MRj8&pp=ygURUGV0ZXIgUGFuICYgV2VuZHk%3D",
-    img: "https://res.cloudinary.com/ugwutotheeshoes/image/upload/v1692394635/Trailer/Homepage/Peter_Pan_Wendy_2023_p7vbwi.jpg",
-    poster: "https://res.cloudinary.com/ugwutotheeshoes/image/upload/co_rgb:000000/b_rgb:000000,co_rgb:000000,o_80/v1692395073/Trailer/Homepage/jungle.png",
-    details:
-      "Wendy Darling, a young girl looking to avoid boarding school, meets Peter Pan, a boy who refuses to grow up. Wendy, her brothers, and Tinker Bell travel with Peter to the magical world of Neverland, where she encounters an evil pirate captain.",
-    director: "David Lowery",
-    writers: "David Lowery, Toby Halbrooks",
-    casts:
-      "Jude Law, Alexander Molony, Ever Anderson, Yara Shahidi, Alyssa Wapanatâhk, Joshua Pickering, Jacobi Jupe, Molly Parker, Alan Tudyk, Jim Gaffigan",
-    release: "April 28, 2023",
-  },
-  {
-    id: 9,
     name: "Spider-Man: Across the Spider-Verse",
     front: true,
     border: "right",
@@ -315,6 +298,23 @@ export const movies = [
     casts:
       "Shameik Moore, Hailee Steinfeld, Jake Johnson, Issa Rae, Daniel Kaluuya, Jason Schwartzman, Brian Tyree Henry, Luna Lauren Vélez, Greta Lee, Rachel Dratch, Jorma Taccone, Shea Whigham, Oscar Isaac",
     release: "June 2, 2023",
+  },
+  {
+    id: 9,
+    name: "Peter Pan & Wendy",
+    category: "adventure",
+    genre: "Adventure, Action, Fantasy",
+    ratings: 4.4,
+    video: "https://www.youtube.com/watch?v=p-5sVX7MRj8&pp=ygURUGV0ZXIgUGFuICYgV2VuZHk%3D",
+    img: "https://res.cloudinary.com/ugwutotheeshoes/image/upload/v1692394635/Trailer/Homepage/Peter_Pan_Wendy_2023_p7vbwi.jpg",
+    poster: "https://res.cloudinary.com/ugwutotheeshoes/image/upload/co_rgb:000000/b_rgb:000000,co_rgb:000000,o_80/v1692395073/Trailer/Homepage/jungle.png",
+    details:
+      "Wendy Darling, a young girl looking to avoid boarding school, meets Peter Pan, a boy who refuses to grow up. Wendy, her brothers, and Tinker Bell travel with Peter to the magical world of Neverland, where she encounters an evil pirate captain.",
+    director: "David Lowery",
+    writers: "David Lowery, Toby Halbrooks",
+    casts:
+      "Jude Law, Alexander Molony, Ever Anderson, Yara Shahidi, Alyssa Wapanatâhk, Joshua Pickering, Jacobi Jupe, Molly Parker, Alan Tudyk, Jim Gaffigan",
+    release: "April 28, 2023",
   },
   {
     id: 10,
