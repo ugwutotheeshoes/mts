@@ -309,7 +309,7 @@ export const movies = [
     poster:
       "https://res.cloudinary.com/ugwutotheeshoes/image/upload/a_270,co_rgb:000000/b_rgb:000000,co_rgb:000000,o_80/v1692072155/Trailer/Homepage/miles_qvosv1.jpg",
     details:
-      "After reuniting with Gwen Stacy, Brooklyn's full-time, friendly neighborhood Spider-Man is catapulted across the Multiverse, where he encounters a team of Spider-People charged with protecting its very existence. However, when the heroes clash on how to handle a new threat, Miles finds himself pitted against the other Spiders. He must soon redefine what it means to be a hero so he can save the people he loves most.",
+      "Miles Morales catapults across the Multiverse, where he encounters a team of Spider-People charged with protecting its very existence. When the heroes clash on how to handle a new threat, Miles must redefine what it means to be a hero.",
     director: "Joaquim Dos Santos, Justin K. Thompson, Kemp Powers",
     writers: "Phil Lord, Christopher Miller, David Callaham",
     casts:
