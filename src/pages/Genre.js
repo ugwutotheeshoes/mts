@@ -161,6 +161,7 @@ const Container = styled.div`
   }
 
   @media (max-width: 680px) {
+  margin: 2rem auto;
     ul {
       display: grid;
       grid-template-columns: auto auto auto;
