@@ -2,10 +2,12 @@ import React from "react";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
 import { FaBars } from "react-icons/fa";
+import { useMoviesContext } from "../context/movies_context";
 import { links } from "../utils/constants";
 import Logo from "./Logo";
 
 const Navbar = () => {
+  const { openSidebar } = useMoviesContext();
   // const [menu, setMenu] = useState(true);
   // const showMiniLinks = () => {
   //   setMenu(!menu);
@@ -17,12 +19,11 @@ const Navbar = () => {
           <Link to="/">
             <Logo />
           </Link>
-          <button type="button" className="nav-toggle">
+          <button type="button" className="nav-toggle" onClick={openSidebar}>
             <FaBars />
           </button>
           <ul className="nav-links">
-            {links.map((link) => {
-              const { id, text, url } = link;
+            {links.map(({ id, text, url }) => {
               return (
                 <li key={id}>
                   <Link to={url}>{text}</Link>

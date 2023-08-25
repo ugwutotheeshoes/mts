@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router,  Routes, Route } from "react-router-dom";
-import { Navbar, Footer } from "./components";
+import { Navbar, Footer, Sidebar } from "./components";
 import { Genre, Shows, Homepage, Account } from "./pages";
 import {
   Action,
@@ -19,6 +19,7 @@ function App() {
     <div className="App">
       <Router>
       <Navbar />
+      <Sidebar />
       <Routes>
         <Route path="/" element={<Homepage />} />
         <Route path="/account" element={<Account />} />
@@ -35,7 +36,6 @@ function App() {
           <Route path="/genre:id" element={<Series />} />
         </Route>
       </Routes>
-      {/* <Sidebar /> */}
       <Footer />
       </Router>
     </div>
